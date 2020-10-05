@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
 
-export default function Home() {
+export default function Sitemap() {
   return (
-    <Layout title="Home">
+    <Layout title="Child">
       <>
-        <h1>Home</h1>
-        <Link href="/child">Child</Link>
+        <h1>Child</h1>
+        <Link href="/">Home</Link>
       </>
     </Layout>
   );
